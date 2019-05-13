@@ -25,7 +25,6 @@ body, html {
     z-index: -1;
 }
 
-/* ID-sections */
 
 #title {
     height: 100%;
@@ -83,6 +82,7 @@ body, html {
 }
 
 /* About Section */
+
 #about {
     padding: 5% 7%;
     background: #eeeeee;
@@ -137,7 +137,6 @@ body, html {
 
 #contact {
     background: #eeeeee;
-    height: 100%;
     text-align: center;
 }
 
@@ -163,4 +162,14 @@ body, html {
 .message-box {
     height: 10rem;
     width: 100%;
+}
+
+.footer {
+    background: #222831;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.footer-text {
+    margin: 0;
 }
