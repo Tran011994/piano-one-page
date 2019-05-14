@@ -156,7 +156,6 @@ body, html {
 }
 
 .contact-form-container {
-    transform: 50%;
     width: 50%;
     padding: 10% 7%;
     display: inline-block;
@@ -214,5 +213,9 @@ body, html {
 
     .nav-bar {
         display: none;
+    }
+
+    .contact-form-container {
+        width: 80%;
     }
 }
