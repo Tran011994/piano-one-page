@@ -218,4 +218,8 @@ body, html {
     .contact-form-container {
         width: 80%;
     }
+
+    .site-name {
+        text-align: center;
+    }
 }
