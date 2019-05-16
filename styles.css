@@ -1,29 +1,38 @@
 html {
- box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-    
+
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-body, html { 
+body,
+html {
     height: 100%;
     margin: 0;
 }
 
 /* Fonts */
 
-.site-name, .about-title, .service-box h1, .contact-title {
+.site-name,
+.about-title,
+.service-box h1,
+.contact-title {
     font-family: Lobster, Arial, sans-serif;
 }
 
-.about-text, .service-description, .nav-item, #contact {
+.about-text,
+.service-description,
+.nav-item,
+#contact {
     font-family: Cabin, Arial, sans-serif;
 }
 
-/* Background Image */ 
+/* Background Image */
 .background {
     background-image: url(https://assets.classicfm.com/2017/01/piano-v4r-1483624599-editorial-long-form-0.jpg);
     height: 100%;
@@ -44,6 +53,8 @@ body, html {
 /* Navigation */
 
 .header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #393e46;
     opacity: .7;
@@ -52,7 +63,9 @@ body, html {
 }
 
 
-.page-title{
+.page-title {
+    -webkit-box-flex: 3;
+    -ms-flex: 3 1 auto;
     flex: 3 1 auto;
 }
 
@@ -63,6 +76,7 @@ body, html {
 }
 
 .logo-container {
+    -ms-flex-preferred-size: 10%;
     flex-basis: 10%;
 }
 
@@ -73,19 +87,27 @@ body, html {
 }
 
 .nav-bar {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-align: center;
 }
 
 .nav-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100%;
     color: #eeeeee;
     font-size: 1.5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-decoration: none;
     color: white;
@@ -113,6 +135,8 @@ body, html {
 }
 
 .services-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #222831;
     color: #eeeeee;
@@ -120,10 +144,21 @@ body, html {
 }
 
 .service-box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 30%;
     flex: 1 1 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding: 1rem;
     border: 5px solid #eeeeee;
@@ -194,6 +229,9 @@ body, html {
 
 @media all and (max-width: 1024px) {
     .services-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -204,6 +242,9 @@ body, html {
 
 @media all and (max-width: 768px) {
     .services-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
